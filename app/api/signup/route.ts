@@ -4,6 +4,8 @@ import bcrypt from "bcrypt";
 import { userSchema } from "@/validation/userSchema";
 
 interface RequestBody{
+    lastname: any;
+    firstname: any;
     email : string,
     password : string,
     name : string
@@ -21,14 +23,15 @@ export async function POST(req : NextRequest){
         const hashedPassword = await bcrypt.hash(body.password, 10);
         await prisma.user.create({
             data:{
-            email : body.email,
-            password : hashedPassword,
-            name : body.name
+            Email : body.email,
+            Password : hashedPassword,
+            Firstname : body.firstname,
+            Lastname : body.lastname
             }
         })
     }
     return NextResponse.json({
-        name : body.name,
+        name : body.firstname,
         email : body.email,
     })
 }

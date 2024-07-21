@@ -73,7 +73,7 @@ const SidebarLayout = ({
           <div>
             <SidebarLink
               link={{
-                label: "Manu Arora",
+                label: "Utkarsh",
                 href: "/profile",
                 icon: (
                   <Image

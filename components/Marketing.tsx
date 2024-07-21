@@ -177,12 +177,12 @@ const Footer = () => {
         </div>
         <div className="flex flex-col space-y-4">
           <h3 className="font-bold">Reach out to us</h3>
-          <p className="text-sm text-gray-600">Get your questions answered about learning with Unacademy.</p>
+          <p className="text-sm text-gray-600">Get your questions answered about learning with EdTech.</p>
           <p className="font-bold text-gray-800">
             <span role="img" aria-label="phone">
               📞
             </span>{" "}
-            Call +91 8585858585
+            Call +91 9999999999
           </p>
         </div>
         <div className="flex flex-wrap space-y-4 md:space-y-0 md:space-x-10">

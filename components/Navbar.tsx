@@ -1,4 +1,3 @@
-// app/components/Navbar.tsx
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
@@ -17,7 +16,7 @@ const Navbar: React.FC = () => {
         <div className="relative flex items-center justify-between h-16">
           <div className="flex-1 flex items-center justify-start">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold">EdTech</h1>
+              <h1 className="text-2xl font-bold">Ed Labs</h1>
             </div>
           </div>
           <div className="hidden sm:block">
