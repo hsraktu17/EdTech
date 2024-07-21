@@ -1,5 +1,5 @@
 import Marketing from "@/components/Marketing";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar2";
 import { SignupFormDemo } from "@/components/SignInForm";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import Image from "next/image";
